@@ -21,8 +21,10 @@ background-attachment:fixed;
   
 }
 
+
 .topnav{
 display: flexbox;
+
 }
 
 
@@ -30,7 +32,10 @@ display: flexbox;
     list-style-type:none;
     display: flex;
     flex-direction: row-reverse;
-   
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  
 }
 
 #navi a{
@@ -40,6 +45,8 @@ color: lightgrey;
    padding: 0px 16px; 
   text-decoration: none;
   font-size: 17px;
+  
+  
 }
 
 
