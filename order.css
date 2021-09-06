@@ -1,0 +1,7 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 19, 19);
+    border: 1px solid black;
+    color: blanchedalmond;
+}

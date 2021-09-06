@@ -110,10 +110,10 @@ color: lavenderblush;
         width: 500px;
     }
 
-.fab fa-facebook{
+.fab {
     color: blue;
 }
 
-fab fa-instagram{
+.fab {
     color: rgb(226, 43, 211);
 }

@@ -1,0 +1,105 @@
+body{
+
+ background-image: url(HOME6.jpeg) ;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 100%;
+    background-attachment:fixed;
+    color: floralwhite;
+    
+    }
+ 
+ 
+ #h1{
+    padding-left: 30px;
+    padding-top: 14px;
+    
+    
+}
+
+#h1 a{
+    text-decoration: none;
+    color: lightgray;
+  
+}
+
+
+.topnav{
+display: flexbox;
+
+}
+
+
+#navi{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  
+}
+
+#navi a{
+font-weight: bolder;
+color: lightgrey;    
+    text-align: center;
+   padding: 0px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+
+#navi a:hover {
+  
+    border-bottom:2px solid paleturquoise;
+   }
+
+
+   .button{
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-end;
+       padding-top: 0px;
+       padding-right: 10px;
+       
+   }
+
+   .btn{
+       border: none;
+       background-color: rgb(55, 215, 226);
+
+   }
+
+
+   .contena{
+       display: flex;
+       justify-content: space-between;
+   }
+
+
+
+
+  section{
+display: flex;
+flex-direction: column;
+
+  }
+
+  img {
+    border-radius: 50%;
+    padding: 30px;
+  }
+
+  article{
+      display: flex;
+      flex-direction: column;
+  }
+
+  aside{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
