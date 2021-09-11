@@ -1,7 +1,92 @@
 footer{
     display: flex;
     flex-direction: column;
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(39, 26, 26);
     border: 1px solid black;
     color: blanchedalmond;
 }
+#h1{
+    padding-left: 30px;
+    padding-top: 14px;
+    
+    
+}
+
+#h1 a{
+    text-decoration: none;
+    color: lightgray;
+  
+}
+
+
+.topnav{
+display: flexbox;
+
+}
+
+
+#navi{
+    list-style-type:none;
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+  
+}
+
+#navi a{
+font-weight: bolder;
+color: lightgrey;    
+    text-align: center;
+   padding: 0px 16px; 
+  text-decoration: none;
+  font-size: 17px;
+  
+  
+}
+
+
+#navi a:hover {
+  
+    border-bottom:2px solid paleturquoise;
+   }
+   
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+
+.start{
+    text-align: center;
+}
+
+.btn{
+   text-align: center;
+    
+}
+
+input[type=submit] {
+    background-color: #4ccead;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+
+
+
+  body{
+    color: lavenderblush;
+        background-image:url(HOME3.jpeg) ;
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: 100%;
+        background-attachment:fixed;
+        
+        }
+    
